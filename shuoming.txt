@@ -1,0 +1,16 @@
+宝塔7.7开心脚本
+国外机器安装脚本  curl -sSO https://cdn.jsdelivr.net/gh/liheng11/bt7.9.4@main/guowai_7.7_install_panel.sh && bash guowai_7.7_install_panel.sh
+
+国内机器安装脚本  curl -sSO https://cdn.jsdelivr.net/gh/liheng11/bt7.9.4@main/guonei_7.7_install_panel_cn.sh && bash guonei_7.7_install_panel_cn.sh
+
+一键开心脚本        curl -sSO https://cdn.jsdelivr.net/gh/liheng11/bt7.9.4@main/one_key_7.7_happy.sh && bash one_key_7.7_happy.sh
+
+挂载硬盘
+yum install wget -y && wget -O auto_disk.sh https://cdn.jsdelivr.net/gh/ztkink/bthappy@main/auto_disk.sh && bash auto_disk.sh
+优化脚本
+wget -O optimize.sh http://f.cccyun.cc/bt/optimize.sh && bash optimize.sh
+
+
+升级到7.9.4开心版 企业版命令（需要先安装宝塔才能升级）
+curl https://cdn.jsdelivr.net/gh/liheng11/bt7.9.4@main/shengji_7.9.4_update_panel.sh|bash
+curl https://cdn.jsdelivr.net/gh/liheng11/bt7.9.4@main/shengji_7.9.4_update6.sh|bash
